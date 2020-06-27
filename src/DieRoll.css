@@ -1,0 +1,33 @@
+.DieRoll {
+  min-height: 100vh;
+  background-color: rgb(245, 245, 245);
+}
+.DieRoll-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DieRoll-btn {
+  background-color: rgb(78, 117, 190);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  outline: none;
+}
+.DieRoll-btn:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.DieRoll-btn-rolling {
+  background-color: rgb(165, 158, 158);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  outline: none;
+}
