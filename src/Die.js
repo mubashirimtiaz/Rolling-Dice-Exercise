@@ -8,7 +8,7 @@ export default class Die extends Component {
         <h3>{this.props.face}</h3>
         <i
           className={`Die fa fa-${this.props.face} ${
-            this.props.shaking ? "shaking" : ""
+            this.props.shaking && "shaking"
           }`}
         ></i>
       </div>
