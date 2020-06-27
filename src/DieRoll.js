@@ -44,9 +44,7 @@ export default class DieRoll extends Component {
         </div>
 
         {this.state.die1 === this.state.die2 ? (
-          <h2>
-            You Win <span role="img">😊😊😊!!!</span>
-          </h2>
+          <h2>You Win!!!</h2>
         ) : (
           <button
             className={
